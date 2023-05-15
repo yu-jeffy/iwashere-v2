@@ -3,9 +3,13 @@
 *iwashere* is a decentralized application (DApp) that allows users to sign their names on a virtual wall using their Ethereum wallets. Built with Angular, Ethers.js, Wagmi and RainbowKit.
 
   _                    _                   
+
  (_)__ __ __ __ _  ___| |_   ___  _ _  ___ 
+
  | |\ V  V // _` |(_-<| ' \ / -_)| '_|/ -_)
+
  |_| \_/\_/ \__,_|/__/|_||_|\___||_|  \___|
+ 
                                            
 
 ## Table of Contents
