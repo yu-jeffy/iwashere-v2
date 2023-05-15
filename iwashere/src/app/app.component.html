@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="header">
+    <button class="connect-wallet" (click)="connectWallet()">Connect Wallet</button>
+    <p class="wallet-address" *ngIf="walletConnected">{{ walletAddress }}</p>
+  </div>
+
+  <div class="signed-names" *ngIf="walletConnected">
+    <div class="input-section" *ngIf="!nameSigned">
+      <input type="text" placeholder="Sign your name here" [(ngModel)]="inputName" />
+      <button class="sign-button" (click)="signName()">Sign</button>
+    </div>
+    <div class="names-list">
+      <p *ngFor="let name of signedNames">{{ name }}</p>
+    </div>
+  </div>
+</div>

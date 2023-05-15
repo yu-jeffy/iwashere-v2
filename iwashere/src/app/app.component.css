@@ -1,0 +1,74 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .connect-wallet,
+  .sign-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .connect-wallet:hover,
+  .sign-button:hover {
+    background-color: #444;
+  }
+  
+  .wallet-address {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signed-names {
+    margin-top: 30px;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 70%;
+  }
+  
+  .names-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .names-list p {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }

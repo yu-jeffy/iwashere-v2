@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ethers": "^6.3.0",
+    "rainbowkit": "^0.0.1",
+    "wagmi": "^1.0.4"
+  }
+}
